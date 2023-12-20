@@ -13,7 +13,9 @@
                         <div class="card-body">
                             <h5 class="card-title">{{ $movie->title }}</h5>
                             <p class="card-text">{{ $movie->original_title }}</p>
-                            <a href="{{ route('movies.show', $movie->id) }}" class="btn btn-primary">Details</a>
+                            <p class="card-text">Voto: {{ $movie->vote }}</p>
+                            <p class="card-text">Lingua: {{ $movie->language }}</p>
+                            <a href="{{ route('movies.index')}}" class="btn btn-primary">Torna indietro</a>
                         </div>
                     </div>
                 </div>
