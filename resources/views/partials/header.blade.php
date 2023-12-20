@@ -8,7 +8,7 @@
               <a class="nav-link text-white fs-3 {{ Route::currentRouteName() == 'movies.index' ? 'active' : 'text-white' }}" href="{{ route('movies.index') }}">Movies</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fs-3" href="#">Books</a>
+              <a class="nav-link text-white fs-3 {{ Route::currentRouteName() == 'books.index' ? 'active' : 'text-white' }}" href="{{ route('books.index') }}">Books</a>
             </li>
           </ul>
     </nav>
