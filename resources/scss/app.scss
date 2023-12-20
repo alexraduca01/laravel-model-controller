@@ -8,3 +8,7 @@ $fa-font-path: "../webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/brands";
 
 @import '~bootstrap/scss/bootstrap';
+
+.active {
+    color: lightgreen!important;
+}
