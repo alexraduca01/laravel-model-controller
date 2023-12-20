@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
-@section('title', 'Movies')
+@section('title', 'Books')
 
 @section('content')
     <main>
-        <h1 class="text-center mt-3 text-info ">Movies</h1>
+        <h1 class="text-center mt-3 text-info ">Books</h1>
         <section class="container">
             <div class="row">
                 @foreach ($books as $item)
